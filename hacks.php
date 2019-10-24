@@ -1,3 +1,5 @@
+/* to display categories in dropdown */
+
 <?php
 $queried_object = get_queried_object();
 $selected_cat = $queried_object->term_id;
