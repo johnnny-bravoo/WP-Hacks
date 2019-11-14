@@ -20,7 +20,7 @@ $selected_cat = $queried_object->term_id;
 </select>
 
 
-
+<?php
 /* WP Custom quries for SELECT and UPDATE */
 
 $querystr = "
