@@ -1,4 +1,4 @@
-
+<?php
 // List ALL post types you want without slug
 function flat_cpts_list() {
     return array('city', 'motorcycle-accident', 'areas-we-serve', 'car-accident', 'bus-accident', 'truck-accident', 'brain-injury', 'defective-product', 'dog-bite-injury', 'drowning-accident', 'medical-malpractice', 'slip-fall-accident', 'wrongful-death');
@@ -166,3 +166,5 @@ add_action('init', function () {
 
 });
 */
+
+?>
